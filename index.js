@@ -126,5 +126,5 @@ document.querySelector('#training-list').addEventListener('click', (e) => {
     Store.removeTraining(e.target.parentElement.previousElementSibling.textContent);
 
      //Show success message
-     UI.showAlert('削除されました', 'success');
+     UI.showAlert('削除されました', 'danger');
 })
